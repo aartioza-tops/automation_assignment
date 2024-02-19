@@ -1,0 +1,32 @@
+package demo4java;
+class B{
+	B(){
+		System.out.print("constructor called....");
+	}
+}
+class employee{
+	int empId;
+	String empname;
+	double salary;
+	
+	public employee(int a,String b,double d) {
+		// TODO Auto-generated constructor stub
+		empId=a;
+		empname = b;
+		salary=d;
+	}
+	void print_data() {
+		System.out.println("\nemployee id " + empId + "\nemployee name " + empname + "\nemployee salary " + salary);;
+	}
+}
+
+public class second {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			B obj = new B();
+			employee e1 = new employee(1001,"khushi",78.90);
+			e1.print_data();
+	}
+
+}

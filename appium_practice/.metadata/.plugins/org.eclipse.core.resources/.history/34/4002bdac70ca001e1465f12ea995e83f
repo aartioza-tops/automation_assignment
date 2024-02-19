@@ -1,0 +1,30 @@
+class student{
+	int rollno;
+	String name;
+	double per;
+	
+	void get_value() {
+		rollno = 1;
+		name = "Ankit";
+		per = 89.90;
+	}
+	void print_value() {
+		System.out.println("rollno :" + rollno);
+		System.out.println("name :" + name);
+		System.out.println("per :" + per);
+	}
+}
+public class first {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//System.out.println("hello from java.....");
+		//System.out.println("Welcome to tops.....");
+		
+		student s1 = new student();
+		s1.get_value();
+		s1.print_value();
+		
+	}
+
+}

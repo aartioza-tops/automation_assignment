@@ -1,0 +1,40 @@
+package demo4java;
+
+import java.util.Scanner;
+
+class B{
+	B(){
+		System.out.print("constructor called....");
+	}
+}
+class employee{
+	int empId;
+	String empname;
+	double salary;
+	
+	public employee(int a,String b,double d) {
+		// TODO Auto-generated constructor stub
+		empId=a;
+		empname = b;
+		salary=d;
+	}
+	void print_data() {
+		System.out.println("\nemployee id " + empId + "\nemployee name " + empname + "\nemployee salary " + salary);;
+	}
+}
+
+public class second {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner myObj = new Scanner(System.in);
+		int eid = myObj.nextInt();
+		String ename = myObj.nextLine();
+		double esalary = myObj.nextDouble();
+		
+			B obj = new B();
+			employee e1 = new employee(eid,ename,esalary);
+			e1.print_data();
+	}
+
+}

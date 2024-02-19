@@ -1,0 +1,17 @@
+package demo4java;
+class A{
+	A(){
+		System.out.print("constructor called....");
+	}
+}
+
+
+
+public class second {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			A obj = new A();
+	}
+
+}

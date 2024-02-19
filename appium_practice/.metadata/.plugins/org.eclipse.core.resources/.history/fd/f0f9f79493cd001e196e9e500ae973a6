@@ -1,0 +1,22 @@
+
+public class DataTypes {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			int rollno;
+			double percentage;
+			char result;
+			String name;
+			boolean status;
+			
+			rollno = (int)1.1;
+			percentage = 1;
+			result = 'P';
+			name = "yash";
+			status = true;
+			
+			System.out.print(percentage);
+			System.out.print(rollno);
+	}
+
+}
